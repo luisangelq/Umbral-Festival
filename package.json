@@ -1,0 +1,8 @@
+{
+  "name": "UmbralFestival",
+  "version": "1.0.0",
+  "description": "Integrate SASS and Gulp",
+  "main": "index.js",
+  "author": "Luis Angel Quiñones Guerrero",
+  "license": "ISC"
+}
