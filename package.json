@@ -1,8 +1,27 @@
 {
-  "name": "UmbralFestival",
+  "name": "umbralfestival",
   "version": "1.0.0",
-  "description": "Integrate SASS and Gulp",
-  "main": "index.js",
-  "author": "Luis Angel Quiñones Guerrero",
-  "license": "ISC"
+  "description": "GULP SASS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisangelq/Umbral-Festival.git"
+  },
+  "author": "Luis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisangelq/Umbral-Festival/issues"
+  },
+  "homepage": "https://github.com/luisangelq/Umbral-Festival#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-webp": "^4.0.1",
+    "node-sass": "^5.0.0"
+  }
 }
