@@ -1,6 +1,7 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;
+    
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -14,6 +15,7 @@ body {
 p {
     font-size: 2rem;
     color: $black;
+    
 }
 
 .content {

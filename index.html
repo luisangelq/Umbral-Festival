@@ -12,9 +12,9 @@
         <h1>Umbral Festival</h1>
 
         <nav class="main-nav">
-          <a href="#">Line Up</a>
-          <a href="#">Gallery</a>
-          <a href="#">Tickets</a>
+          <a href="#lineup">Line Up</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#tickets">Tickets</a>
         </nav>
       </div>
     </header>
@@ -51,13 +51,13 @@
       </div>
     </div>
 
-    <section class="lineup content">
+    <section id="lineup" class="lineup">
       <h3>Line Up</h3>
 
       <p class="dia">Friday 21</p>
-      <div class="stage-content">
-        <div class="stage rock">
-          <p>Rock Stage</p>
+      <div class="stage-content content">
+        <div class="stage rock yellow">
+          <p class="name-stage">Rock Stage</p>
 
           <ul class="schedule">
             <li>24:00 | <span>Metallica</span></li>
@@ -69,8 +69,8 @@
           </ul>
         </div>
 
-        <div class="stage edm">
-          <p>EDM Stage</p>
+        <div class="stage edm blue">
+          <p class="name-stage">EDM Stage</p>
 
           <ul class="schedule">
             <li>24:00 | <span>Franz Ferdinan</span></li>
@@ -84,9 +84,9 @@
       </div>
 
       <p class="dia">Saturday 22</p>
-      <div class="stage-content">
-        <div class="stage rock">
-          <p>Rock Stage</p>
+      <div class="stage-content content">
+        <div class="stage rock blue">
+          <p class="name-stage">Rock Stage</p>
 
           <ul class="schedule">
             <li>24:00 | <span>Metallica</span></li>
@@ -98,8 +98,8 @@
           </ul>
         </div>
 
-        <div class="stage edm">
-          <p>EDM Stage</p>
+        <div class="stage edm yellow">
+          <p class="name-stage">EDM Stage</p>
 
           <ul class="schedule">
             <li>24:00 | <span>Franz Ferdinan</span></li>
@@ -112,5 +112,82 @@
         </div>
       </div>
     </section>
+
+    <section id="gallery" class="gallery content">
+      <h3>Gallery</h3>
+
+      <ul class="image-gallery"></ul>
+    </section>
+
+    <section id="tickets" class="tickets">
+      <h3>Tickets</h3>
+
+      <div class="content-tickets content">
+        <div class="basic plan">
+          <p>1 day pass</p>
+
+          <table class="pass">
+            <thead>
+              <tr>
+                <th>Include</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Access All Stages</td>
+              </tr>
+              <tr>
+                <td>Drink And Food</td>
+              </tr>
+            </tbody>
+
+            <tfoot>
+              <tr>
+                <td>$100</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+
+        <div class="premium plan">
+          <p>2 days pass</p>
+          <table class="pass">
+            <thead>
+              <tr>
+                <th>Include</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Access All Stages</td>
+              </tr>
+              <tr>
+                <td>Drink And Food</td>
+              </tr>
+              <tr>
+                <td>Event Shirt</td>
+              </tr>
+              <tr>
+                <td>VIP Access</td>
+              </tr>
+            </tbody>
+
+            <tfoot>
+              <tr>
+                <td>$180</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Umbral Festival | All Rights Reserved &copy;</p>
+    </footer>
+
+    <script src="build/js/bundle.js"></script>
   </body>
 </html>
